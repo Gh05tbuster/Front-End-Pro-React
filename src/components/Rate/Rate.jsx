@@ -48,7 +48,7 @@ class Rate extends React.Component {
                     <Grade image={'./assets/images/5.svg'}/>
                     {/* <Grade image={'./assets/images/5+.svg'}/> */}
                 </div>
-                <button className='btn big' onClick={this.handleClick}>Summarize</button>
+                <button className='btn big' onClick={this.handleClick}>Show results</button>
                 <div className='winner'></div>
                 
             </div>
