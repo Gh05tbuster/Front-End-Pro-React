@@ -15,10 +15,8 @@ class Grade extends React.Component {
         this.setState(() => {
             return {counter: this.state.counter+1}
         });
-        
     }
     
-
     render() {
         return (
             <div className='grade'>
