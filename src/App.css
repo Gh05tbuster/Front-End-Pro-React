@@ -116,3 +116,34 @@
   background-color: #fff;
   width: 100%;
 }
+
+/* -------ratebox------------- */
+.rateBox {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rateBox .grade {
+  width: 100px;
+}
+
+.rateBox .grade img {
+  cursor: pointer;
+}
+
+.rateBox .grade img:hover {
+  transform: scale(1.05);
+}
+
+.rateBox .grade img:active {
+  transform: scale(0.95);
+}
+
+.rateBox .grade .count {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 48px;
+  color: #3c414b;
+}
